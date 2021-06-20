@@ -1,0 +1,483 @@
+/*   section main */
+.main{
+ height: 90vh;
+ margin:0 10rem;
+ position: relative;
+
+&--img{
+ height: 100%;
+ width: 100%;
+ object-fit: cover;
+ 
+}
+ &--box{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &-text{
+   display: flex;
+   flex: 0 0 35%;
+   align-content: center;
+   justify-content: center;
+   flex-direction: column;
+  }
+ }
+ &--img-box{
+  //  display: flex;
+   flex: 0 0 55%;
+   display: block;
+   width: 20rem;
+   height: 55rem;
+ }
+}
+ /* section-differences*/
+
+ .section-differences{
+  border-right: 1px solid $color-grey-dark-4;
+  border-left: 1px solid $color-grey-dark-4;
+  height: 50rem;
+  margin: 3rem 10rem;
+  display: flex;
+  flex-wrap: wrap;
+   
+
+   &-heading{
+    display: flex;
+    // align-content: space-between;
+    flex-direction: column;
+    flex: 0 0 50%;
+    padding: 0 12rem;
+    justify-content: space-around;
+    justify-items: center;
+    border-right: 1px solid $color-grey-dark-4;
+    
+    // &-sub{
+     
+    // }
+
+   }
+   &-button{
+    display: flex;
+    align-items: center;
+   justify-items: center;
+   }
+   &-paragraph{
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    padding: 0 10rem;
+    justify-content: center;
+   }
+   &-buttons{
+    display: flex;
+   }
+ }
+     /* section-reality*/
+
+.section-reality{
+border-top: 1px solid $color-grey-dark-4;
+height: 5rem;
+margin:7rem 0 0 8rem;
+padding: 10rem 3rem;
+display: flex;
+align-items: center;
+justify-items: center;
+
+ p {
+   color: $color-grey-dark;
+}
+&-heading{
+ flex: 0 0 47%;
+ margin-right: 5rem;
+}
+&-paragragh{
+ flex: 0 0 20%;
+}
+}
+/* section explore*/
+.section-explore{
+  margin: 3rem 10rem;
+  padding-bottom: 4rem;
+}
+ /* section collections*/
+
+ .collection{
+   padding-top: 7rem ;
+    margin-left: 10rem;
+    height: 100vh;
+   border-top: 1px solid $color-grey-dark-4; 
+   
+  &-box{
+    display: flex;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: space-between;  
+  }
+  &-gallery{
+    display: flex;
+    padding: 1rem  0 0 0;
+   
+
+  }
+  &-gallery-1{
+    height: 50rem;
+    width: 100%;
+    padding-right: 2.5rem;
+    flex: 0 0 65%;
+    position: relative;
+    
+  }
+  &-gallery-2{
+    height: 50rem;
+    width: 100%;
+    flex: 0 0 35%;
+  }
+  &-details{
+    display: flex;
+    justify-content: space-between;
+    margin:0 10rem 9rem 10rem;
+    margin-top: -1.5rem;
+    
+
+    p {
+      font-size: 1.8rem;
+    }
+    a{
+      color: $color-grey-dark-3;
+      font-size: 1.5rem;
+    }
+    h3{
+      font-size: 1.8rem;
+      color: $color-grey-dark-2;
+    } 
+  }
+  &-buttons{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    padding:0 3rem;
+    
+    }
+ }
+ .gallery-img-1{
+  
+   width: 100%;
+   height: 93%;
+   display: block;
+   position: relative;
+ }
+ .gallery-img-2{
+  width: 100%;
+  height: 93%;
+  display: block;
+}
+.gallery-btns--1{
+  margin-right:53rem ;
+
+  &:hover{
+    color: $color-green
+  }
+}
+/* section professional*/
+.professional{
+  margin:10rem 0 2rem 10rem;
+  // height: 60vh;
+
+ border-top: 1px solid $color-grey-dark-4;
+}
+ /* gallery*/
+ 
+ .gallery-container{
+  margin: 1rem auto;
+  
+
+   &-card{
+     height: 42rem;
+     width: 33rem;
+     position: relative;
+     backface-visibility: hidden;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+    
+   }
+   &-details{
+     display: flex;
+     justify-content: space-between;
+     font-size: 1.5rem;
+    //  
+    &-1{
+      color: $color-black;
+    }
+    &-2{
+      color: $color-grey-dark-2;
+    }
+
+   }
+   &-img{
+     height: 37rem;
+     width: auto;
+     
+   }
+ }
+ .personal-concierge{
+  border-top: 1px solid $color-grey-dark-4;
+  margin: 7rem 0 7rem 10rem;
+
+ }
+  /* section personal*/
+  .personal{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 13rem;
+    padding-bottom: 7rem;
+    &-txt{
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 42%;
+      padding-right:9rem;
+      
+
+      &-paragraph{
+        font-size: 1.7rem;
+        padding: 3rem 4rem 3rem 0;
+        line-height: 1.3;
+        letter-spacing: .5px;
+        color: $color-black;
+      }
+
+    }
+    &-box{
+      display: flex;
+      flex-direction:column;
+      // align-items: space-between;
+      padding: 0 3rem;
+      border-left: 1px solid $color-grey-dark-4;
+
+      &-img{
+        margin-bottom: 1.8rem;
+      }
+      &-image{
+        border-radius: 58rem;
+        height: 7rem;
+        width: 7rem;
+      }
+      &--txt{
+        font-size: 1.7rem;
+        line-height: 1.4;
+        color: $color-grey-dark;
+        text-align: start;
+
+      }
+      &--title{
+        margin-top: 2.5rem;
+        font-size: 1.5rem;
+        color: $color-black;
+
+      }
+    }
+    &-img{
+      display: flex;
+      flex-direction: column;
+      flex: 0 0 58%;
+      height: 45rem;
+      width: 60rem;
+
+      &-paragraph{
+        margin-top: 2.5rem;
+        font-size: 1.7rem;
+        line-height: 1;
+      }
+    }
+    &-image{
+      height: 100%;
+      width: 100%;
+    }
+
+  }
+  .personal--box{
+    display: flex;
+    justify-content: space-between;
+  }
+  /* section different*/
+  .section-different{
+
+    &-box{
+      display: flex;
+      margin: 6rem 10rem;
+      justify-content: space-evenly;
+      align-content: center;
+      border-bottom: 1px solid $color-black;
+      padding-bottom: 3rem;
+
+
+    }
+    &-logo{
+      height: 2.5rem;
+      margin-left: 15rem;
+
+    }
+    &-paragraph{
+      font-size: 1.5rem;
+      color: $color-grey-dark-3;
+      
+    }
+  }
+  .different{
+    display: flex;
+    flex-direction:column ;
+
+    text-align: center;
+
+    &-heading{
+      padding: 0 50rem;
+    }
+    &-paragraph{
+      font-size: 1.7rem;
+      padding:2.5rem 49rem;
+      line-height: 1.3;
+      letter-spacing: .2px;
+      color: $color-grey-dark-3;
+    }
+  }
+
+  /* section-three-by-six*/
+
+  .section-three-by-six{
+    margin: 3rem 12rem;
+  }
+  .three-by-six{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.6rem;
+
+  }
+  .three{
+    display: flex;
+    padding: 3rem 0;
+    border-bottom: 1px solid $color-grey-dark-4;
+  
+    &-one{
+      color: $color-black;
+      font-weight: bolder;
+      font-size: 1.7rem;
+      flex: 0 0 30%;
+    }
+    &-two{
+      color: $color-black;
+      flex: 0 0 35%;
+      padding-right: 10rem;
+      line-height: 1.4;
+
+    }
+    &-three{
+      flex: 0 0 35%;
+      color: $color-grey-dark;
+    }
+  }
+
+  /* section trust*/
+  .section-trust{
+    margin: 5rem 10rem;
+    // height: 20rem;
+
+  
+
+    &-box{
+      padding: 5rem;
+      display: flex;
+      justify-content: space-between;
+
+    }
+    // &-txt{
+
+    // }
+    &-container{
+      display:flex;
+      flex-direction: column;
+      // height: 20rem;
+      padding: 1.5rem;
+
+      &--details{
+        font-size: 1.4rem;
+        line-height: 1.5;
+        text-align: start;
+        letter-spacing: .9px;
+      }
+      &--logo{
+        margin-bottom:2rem;
+        height:3rem;
+        width: 15rem;
+      }
+
+    }
+    &-button{
+      display: flex;
+     align-items: center;
+     cursor: pointer;
+    }
+  }
+ .Personal-buttons{
+  margin: 3rem 0 0 3rem;
+ }
+
+/* testimony*/
+.testimony{
+  padding: 2rem 0 0 3rem;
+  font-size: 7.5rem;
+  letter-spacing: 1px;
+}
+/* 2nd personal*/
+.personal-txt-heading{
+  font-size: 2.6rem;
+}
+/* section-dream*/
+.dream{
+  margin: 2rem 13rem;
+  height: 100vh;
+  width: auto;
+  color: $color-white;
+  
+  
+  &-box{
+  background-image:linear-gradient(to right bottom,
+  rgba($color-grey-dark-3, 0.5),
+  rgba($color-grey-dark-3, 0.5))
+, url(../img/toilet8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  &-sub{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     transform: translate(-50%, -50%);
+
+
+    &--heading{
+      font-size: 6rem;
+      letter-spacing: 1.5;
+    }
+    &--paragraph{
+      font-size: 2rem;
+      font-family: Poppins;
+
+    }
+
+  }
+  }
+
+}

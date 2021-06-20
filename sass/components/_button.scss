@@ -1,0 +1,138 @@
+.btn{
+ padding: 2rem 2.7rem;
+ display: block;
+ text-transform: uppercase;
+ border: none;
+ font-size: 1.2rem;
+ cursor: pointer;
+ transition: all .5s;
+
+
+ &-rotate{
+  transform: rotate(-90deg);
+  color: $color-white;
+
+  &:hover, &:focus{
+   color: $color-grey-dark-3;
+   transform: rotate(180deg);
+  }
+ }
+ 
+ &:hover{
+  transition: all .5s;
+  
+ }
+ &-arrow{
+  font-size: 3.1rem;
+
+  &:hover, &:focus{
+   color: $color-green;
+   transition: all .5s;
+   font-weight: 500;
+   
+  }
+ }
+}
+
+.btn-black{
+ background-color: $color-black;
+ color: $color-white;
+ width: 70%;
+ transition: all .2s;
+ font-weight: bolder;
+
+ &:hover{
+  color: $color-black;
+  background-color: $color-grey-dark;
+  display: inline-block;
+  font-weight: bolder;
+  
+
+ }
+}
+.btn-white{
+ background-color: $color-white;
+ color: $color-black;
+ // width: 25%;
+ font-weight: 800;
+ transition: all .2s;
+ outline-offset: .5rem;
+
+ &:hover{
+  color: $color-white;
+  background-color: $color-grey-dark-3;
+  display: inline-block;
+  outline: .3rem solid $color-grey-dark-3;
+ } 
+ }
+
+.btn-play2{
+ border-radius: 50%;
+ height: 10rem;
+ width: 10rem;
+ display: inline-block;
+ cursor: pointer;
+ border: 1px solid $color-grey-dark-2;
+ background-color: rgba($color-white, .70);
+ // background-color: transparent;
+}
+
+.btn-play-small{
+ border-radius: 50%;
+ height: 6rem;
+ width: 6rem;
+ display: inline-block;
+ cursor: pointer;
+ border: 1px solid $color-grey-dark-2;
+ background-color: rgba($color-white, .70);
+}
+.btn-play1{
+ border-radius: 50%;
+ height: 25rem;
+ width: 25rem;
+ cursor: pointer;
+ position: absolute;
+ border: 1px solid $color-grey-dark-4;
+ background-color: transparent;
+ color: $color-white;
+font-size: 2rem;
+ bottom: 1rem;
+ left:45rem ;
+ z-index: 2;
+
+}
+.btn--less{
+ border: none;
+ margin-right: 1.5rem;
+ font-size: 2.3rem;
+ // outline: none;
+ background-color: $color-white;
+ color: $color-grey-dark-2;
+ cursor: pointer;
+
+ &:hover{
+  color: $color-grey-dark;
+ }
+}
+.btn--great{
+ border: none;
+ outline: none;
+ font-size: 2.3rem;
+ background-color: $color-white;
+ color: $color-grey-dark-2;
+ cursor: pointer;
+}
+.personal-button{
+ display: flex;
+
+ &-nav{
+  border: none;
+  background-color: $color-white;
+  padding: 2.5rem 0 0 4rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+ }
+ &:hover{
+  outline: none;
+ }
+}

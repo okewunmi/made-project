@@ -1,0 +1,111 @@
+.card{
+ position: relative;
+ height: 50rem;
+ padding: 3rem 7rem 3rem 3rem;
+ perspective: 150rem;
+ -moz-perspective: 150rem;
+ width: 100%;
+ backface-visibility: hidden;
+ overflow: hidden;
+ border-right: 1px solid $color-grey-dark-4;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ flex: 0 0 40%;
+ animation: all .1s;
+
+ a {
+  color: $color-grey-dark;
+  font-size: 1.6rem;
+ }
+ // border: 1px solid $color-grey-dark-4;
+ &:hover{
+  
+
+  & > *{
+   color: $color-white;
+   transition: all .1;
+  }
+  p {  color: $color-white;
+   transition: all .1;}
+
+   a {
+    color: $color-white;
+   transition: all .1;
+   }
+  
+ }
+
+
+ &-head{
+  font-size: 1.8rem;
+  color: $color-grey-dark;
+
+ }
+ &-details{
+ 
+
+  &-head{
+   font-size: 3rem;
+
+  }
+  &-paragraph{
+   color: $color-grey-dark;
+
+   &:hover{
+    // color: $color-white;
+
+   }
+
+  }
+
+ }
+ &-link{
+  
+
+  
+
+ }
+}
+.card-1:hover {
+ background-image:linear-gradient(to right bottom,
+        rgba($color-grey-dark, 0.8),
+        rgba($color-grey-dark-2, 0.8))
+,url(../img/toilet6.jpg);
+ background-size: cover;
+ transition: all .1s;
+ cursor: pointer;
+
+ & > * {
+  color: $color-white;
+ }
+
+ }
+
+.card-2:hover{
+ background-image: linear-gradient(to right bottom,
+ rgba($color-grey-dark, 0.8),
+ rgba($color-grey-dark-2, 0.8))
+,url(../img/toilet7.jpg);
+ background-size: cover;
+ transition: all .1s;
+ cursor: pointer;
+
+ & > * {
+  color: $color-white;
+ }
+}
+.card-3:hover{
+ background-image: linear-gradient(to right bottom,
+ rgba($color-grey-dark, 0.8),
+ rgba($color-grey-dark-2, 0.8))
+,url(../img/toilet9.jpg);
+ background-size: cover;
+ transition: all .1s;
+ cursor: pointer;
+
+ & > * {
+  color: $color-white;
+ }
+
+}
